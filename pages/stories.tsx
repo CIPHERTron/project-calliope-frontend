@@ -3,15 +3,15 @@ import { Layout, Container, LegacyCard } from '../components';
 import { getContentList } from '../lib/content';
 import { CenterElements, Heading } from '../styles/legacy.styles';
 
-const EditorsDesk = ({ articles }) => {
+const Stories = ({ articles }) => {
   return (
     <Layout
-      pathname={'/editors-desk'}
-      pageTitle="Editor's Desk"
+      pathname={'/stories'}
+      pageTitle='Stories'
       pageDescription='Articles and technical blogs about Full Stack Web Development, Open-source and Communities'
     >
       <Container>
-        <Heading>Editor's Desk</Heading>
+        <Heading>Stories</Heading>
         <CenterElements>
           {articles.map((article, idx) => (
             <LegacyCard key={idx} article={article} />
@@ -29,4 +29,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default EditorsDesk;
+export default Stories;

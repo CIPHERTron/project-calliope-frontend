@@ -15,6 +15,7 @@
     "@lhci/cli": "0.8.x",
     "@material-ui/core": "^4.12.1",
     "@types/uuid": "^8.3.0",
+    "console": "^0.7.2",
     "framer-motion": "^4.1.17",
     "gray-matter": "^4.0.3",
     "next": "^10.0.1",
@@ -32,6 +33,7 @@
   "devDependencies": {
     "@types/node": "^14.14.43",
     "@types/react": "^16.14.5",
+    "netlify-cli": "^6.8.5",
     "rss": "^1.2.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
